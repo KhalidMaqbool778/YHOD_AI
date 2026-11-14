@@ -1,0 +1,19 @@
+{
+  "name": "yhod",
+  "version": "1.0.0",
+  "description": "YHOD — Your Health, Our Duty. An AI-powered personal health companion with a real Gemini backend.",
+  "type": "module",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node scripts/unit-tests.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": ">=11"
+  }
+}
